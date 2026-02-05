@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - PracWebApp
 on:
   push:
     branches:
-      - gh-pages
+      - main
   workflow_dispatch:
 
 jobs:
@@ -64,3 +64,4 @@ jobs:
           package: .
 
           
+
